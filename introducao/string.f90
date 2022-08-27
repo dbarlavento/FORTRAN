@@ -1,4 +1,4 @@
-! Matriz de caracteres ou String
+! Matriz de caracteres ou String e sua concatenação
 
 program string
 	implicit none

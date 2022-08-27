@@ -1,9 +1,9 @@
 # FORTRAN
-Aprendendo a programar em FORTRAN
+Aprendendo a programar em FORTRAN no OpenBSD 7.1
 
 ## Preparando o ambiente 
 
-Para instalas o GFortran no OpenBSD.
+Utilizarei o compilador GNU GFortran. Para instalas o GFortran no OpenBSD:
 	
 	$doas pkg_add g95
  
@@ -15,13 +15,13 @@ Eu instalei a versão mais nova disponível (26/08/2022): 11.2.0.
 de versões anteriores do gcc, mais especificamente da versão 8.xx.
 Isso faz com que alguns programas não compilem por erro na ligação das
 bibliotecas necessárias.
-Para resolver é necessário remover o pacote g95:
+Para resolver este problema é necessário remover o pacote g95:
 
-	#pkg_delete g95
+	$doas pkg_delete g95
 
 E as bibliotecas relacionadas a versões antigas, no meu caso: gcc-libs-8.4.0p11:
 	
-	#pkg_delete gcc-libs-8.4.0p11
+	$doas pkg_delete gcc-libs-8.4.0p11
 
 ## Compilando seus programas
 

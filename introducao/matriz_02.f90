@@ -12,10 +12,12 @@ program matrizes
 	integer :: dobro(10)
 	integer :: quadrados(10)
 
+	!	usando um loop embutido para atribuir valores
 	mtz1 = [(i, i = 1, 10)]
 	mtz2 = mtz1  
 	!mtz2 = mtz1(10:1:-1) 
 
+	! somar e multiplicar matrizes é simples
 	dobro = mtz1 + mtz2
 	quadrados = mtz1 * mtz2
 

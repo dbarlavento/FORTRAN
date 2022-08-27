@@ -10,4 +10,4 @@ Para instalas o GFortran no OpenBSD.
 
 ## Compilando seus programas
 GFortran utiliza a mesma sintaxe do GCC. Para compilar, exceto casos específicos, usarei:
-	$egfortran arq.f90 -o arq.out
+	'''$egfortran arq.f90 -o arq.out'''

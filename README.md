@@ -5,7 +5,7 @@ Aprendendo a programar em FORTRAN
 	Para instalas o GFortran no OpenBSD.
 	$doas pkg_add g95
  
- 	Eu instalei a versão mais nova disponível: 11.2.0.
+ 	Eu instalei a versão mais nova disponível (26/08/2022): 11.2.0.
 	$egfortran -v
 
 ## Compilando seus programas

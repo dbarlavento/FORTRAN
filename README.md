@@ -17,6 +17,7 @@ Isso faz com que alguns programas não compilem por erro na ligação das
 bibliotecas necessárias.
 Para resolver é necessário remover o pacote g95, e as bibliotecas 
 relacionadas a versões antigas, no meu caso: gcc-libs-8.4.0p11:
+	
 	pkg_delete gcc-libs-8.4.0p11
 
 ## Compilando seus programas

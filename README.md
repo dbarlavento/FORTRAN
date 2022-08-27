@@ -9,6 +9,7 @@ Aprendendo a programar em FORTRAN
 	$egfortran -v
 
 ## Compilando seus programas
-GFortran utiliza a mesma sintaxe do GCC.
-	Para compilar, exceto casos específicos, usarei:
+	GFortran utiliza a mesma sintaxe do GCC. Para compilar, exceto casos específicos, usarei:
+	'''
 	$egfortran arq.f90 -o arq.out
+	'''

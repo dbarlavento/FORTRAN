@@ -28,3 +28,5 @@ E as bibliotecas relacionadas a versões antigas, no meu caso: gcc-libs-8.4.0p11
 GFortran utiliza a mesma sintaxe do GCC. Para compilar, exceto casos específicos, usarei:
 	
 	$egfortran arq.f90 -o arq.out
+	$egfortran arq.f95 -o arq.out
+	$egfortran arq.f03 -o arq.out

@@ -3,8 +3,8 @@
 program validatriangulo
 	implicit none
 
-	integer la, lb, lc
-	logical p
+	integer :: la, lb, lc
+	logical :: p
 
 	print *, "Digite o valor para o lado A: "
 	read *, la

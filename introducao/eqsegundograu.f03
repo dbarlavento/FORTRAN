@@ -12,10 +12,10 @@ program eqsegundograu
 	integer :: x
 
 	print 100
-	100 format (7x, 'x', 7x, 'f(x)=x²-x-20')
 	do x = -10, 10
 		print 200, x, x**2 - x - 20
-		200 format (7x, i3, 7x, i4)
 	end do
 
+	100 format (7x, 'x', 7x, 'f(x)=x²-x-20')
+	200 format (7x, i3, 7x, i4)
 end program eqsegundograu

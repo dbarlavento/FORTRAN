@@ -11,11 +11,19 @@ program eqsegundograu
 
 	integer :: x
 
+	print *, 'f(x)=x²-x-20'
 	print 100
 	do x = -10, 10
 		print 200, x, x**2 - x - 20
 	end do
 
-	100 format (7x, 'x', 7x, 'f(x)=x²-x-20')
-	200 format (7x, i3, 7x, i4)
+	print *, 'f(x)=2x²+5x-3'
+	print 100
+	do x = -10, 10
+		print 200, x, 2 * (x**2) - x - 20
+	end do
+	
+	! Assim dá pra reaproveitar a foratação para diversas equações	
+	100 format (5x, 'x', 5x, 'f(x)')
+	200 format (3x, i3, 4x, i4)
 end program eqsegundograu

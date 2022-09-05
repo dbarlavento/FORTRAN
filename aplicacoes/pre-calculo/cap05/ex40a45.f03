@@ -15,6 +15,7 @@ program eqsegundograu
 
 	!print *, "Digite o número do exercício (40 a 45)"
 	read (*,*) seletor
+	print '(a,i2)', "# Exercício ", seletor
 
 	select case (seletor)
 		case (40)

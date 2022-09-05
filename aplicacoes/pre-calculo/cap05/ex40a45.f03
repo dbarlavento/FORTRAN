@@ -1,10 +1,12 @@
-! Calcula os valores de f(x) = [-10, 10] para:
+! Calcula os valores de f(x) = [-10, 10] para os exercícios 40 a 45:
 ! ex40: x² - x - 20
 ! ex41: 2x² + 5x - 3
 ! ex42: 4x² - 8x + 3
 ! ex43: x² - 8x + 15
 ! ex44: x(3x - 7) - 6
 ! ex45: x(3x + 11) - 20
+!
+! Para selecionar a saida digite o número do exercício no prompt.
 
 program eqsegundograu
 	implicit none

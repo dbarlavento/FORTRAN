@@ -65,8 +65,8 @@ Tabela com os valores da aplicação dos operadores lógicos:
 Em fortran 2003 são:
 ```
 	<		Menor que
-	<= 	Menor ou igual a
-	== 	Igual a
+	<=		Menor ou igual a
+	==		Igual a
 	/=		diferente de
 	>=		Maior ou igual
 	>		Maio que

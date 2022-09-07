@@ -17,11 +17,11 @@ integer, real e complex para formar expressões matemáticas.
 Os operadores aritméticos em Fortran são, 
 em ordem crescente de precedência:
 ```
-		+	adição	 
-		- 	subtração
-		* 	multiplicação
-		/ 	divisão
-		**	potenciação
+	+	adição	 
+	- 	subtração
+	* 	multiplicação
+	/ 	divisão
+	**	potenciação
 ```
 
 Alguns exemplos:
@@ -53,11 +53,11 @@ O operador .not. é um operador unário.
 
 Segue uma tabela com os valores da aplicação dos operadores lógicos:
 ```
-    p    q    .not. p    p .and. q    p .or. q    p .eqv. q    p .neqv. q
-	 V    V       F           V           V            V            F
-	 V    F       F           F           V            F            V
-	 F    V       V           F           V            F            V
-	 F    F       V           F           F            V            F
+	p		q	.not. p	p .and. q	p .or. q		p .eqv. q	p .neqv. q
+	V		V		F			V				V				V				F
+	V		F 		F			F				V				F				V
+	F 		V		V			F				V				F				V
+	F		F		V			F				F				V				F
 ```
 
 ## Operadores relacionais

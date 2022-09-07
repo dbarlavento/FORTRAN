@@ -52,13 +52,14 @@ Os operadores lógicos em fortran são: .not., .and., .or., .eqv., .neqv..
 O operador .not. é um operador unário.
 
 Segue uma tabela com os valores da aplicação dos operadores lógicos:
-```
-	p		q	.not. p	p .and. q	p .or. q		p .eqv. q	p .neqv. q
-	V		V		F			V				V				V				F
-	V		F 		F			F				V				F				V
-	F 		V		V			F				V				F				V
-	F		F		V			F				F				V				F
-```
+
+| p | q | .not. p | p .and. q | p .or. q	| p .eqv. q | p .neqv. q |
+|---|---|---------|-----------|-----------|-----------|------------|
+| V | V |    F    |     V     |     V     |     V     |      F     |
+| V | F |    F    |     F     |     V     |     F     |      V     |
+| F | V |    V    |     F     |     V     |     F     |      V     |
+| F | F |    V    |     F     |     F     |     V     |      F     |
+
 
 ## Operadores relacionais
 Em fortran 2003 são:

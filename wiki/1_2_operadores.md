@@ -22,7 +22,10 @@ em ordem crescente de precedência:
 		* 	multiplicação
 		/ 	divisão
 		**	potenciação
+```
 
+Alguns exemplos:
+```
 	4² -> 4**2
 	
 	2 + 3 * 4 / 2 ** 2, equivale a: 2 + {3 * [4 / (2²)]}

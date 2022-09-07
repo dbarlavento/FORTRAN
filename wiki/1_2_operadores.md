@@ -51,7 +51,7 @@ Os operadores lógicos em fortran são: .not., .and., .or., .eqv., .neqv..
 
 O operador .not. é um operador unário.
 
-Segue uma tabela com os valores da aplicação dos operadores lógicos:
+Tabela com os valores da aplicação dos operadores lógicos:
 
 | p | q | .not. p | p .and. q | p .or. q | p .eqv. q | p .neqv. q |
 |:---:|:---:|  :---:  |   :---:   |   :---:  |   :---:   |    :---:   |
@@ -64,12 +64,12 @@ Segue uma tabela com os valores da aplicação dos operadores lógicos:
 ## Operadores relacionais
 Em fortran 2003 são:
 ```
-			<		Menor que
-			<= 	Menor ou igual a
-			== 	Igual a
-			/=		diferente de
-			>=		Maior ou igual
-			>		Maio que
+	<		Menor que
+	<= 	Menor ou igual a
+	== 	Igual a
+	/=		diferente de
+	>=		Maior ou igual
+	>		Maio que
 ```
 
 O resultado de uma expressão relacional é um valor lógico:
@@ -84,11 +84,12 @@ pode gerar erros por conta do arredondamento. Para este problema o ideal
 ```
 
 Em fortran:
-
+```
 	if (abs(x - y) < 1.0e-5) then
 		print *, "x == y"
 	else 
 		print *, "x != y"
 	end if
+```
 
 A função abs() retorna o módulo do valor passado como parâmetro.

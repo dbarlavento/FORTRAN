@@ -26,7 +26,7 @@ em ordem crescente de precedência:
 
 Alguns exemplos:
 ```
-	4² -> 4**2
+	4**2, equivale a 4²
 	
 	2 + 3 * 4 / 2 ** 2, equivale a: 2 + {3 * [4 / (2²)]}
 ```

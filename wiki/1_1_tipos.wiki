@@ -1,4 +1,4 @@
-+ Descrição e exemplos dos tipos de dados intrinsecos a Fortran.
+# Descrição e exemplos dos tipos de dados intrinsecos a Fortran.
 
 Integer
 Representa números inteiros.

@@ -17,11 +17,11 @@ integer, real e complex para formar expressões matemáticas.
 Os operadores aritméticos em Fortran são:
 ```
 	Precedência
-	Menor		+	adição	 
+	Menor	+	adição	 
 				- 	subtração
 				* 	multiplicação
 				/ 	divisão
-	Maior		**	potenciação
+	Maior	**	potenciação
 
 	4² -> 4**2
 	

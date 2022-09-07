@@ -14,14 +14,14 @@ do tipo character.
 O operadores aritméticos são utilizados em combinação com os tipos 
 integer, real e complex para formar expressões matemáticas.
 
-Os operadores aritméticos em Fortran são:
+Os operadores aritméticos em Fortran são, 
+em ordem crescente de precedência:
 ```
-	Precedência
-	Menor	+	adição	 
-				- 	subtração
-				* 	multiplicação
-				/ 	divisão
-	Maior	**	potenciação
+		+	adição	 
+		- 	subtração
+		* 	multiplicação
+		/ 	divisão
+		**	potenciação
 
 	4² -> 4**2
 	

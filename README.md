@@ -30,3 +30,11 @@ GFortran utiliza a mesma sintaxe do GCC. Para compilar, exceto casos específico
 	$egfortran arq.f90 -o arq.out
 	$egfortran arq.f95 -o arq.out
 	$egfortran arq.f03 -o arq.out
+
+## Diretórios
+
+1. aplicações: contém programas que resolvem meus problemas.
+2. estudos: contém programas exemplo e exercícios realizados durante 
+o aprendizado de Fortran.
+3. etc: contém programas de teste, arquivos utilizados como entrada e saída
+, etc.

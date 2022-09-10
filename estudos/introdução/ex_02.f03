@@ -1,14 +1,17 @@
 ! Usando variáveis, constantes e expressões aritméticas
-! Converte de Fahrenheit para Celsius
+! Converte o valor inserido de Fahrenheit para Celsius
 
 program ex_02
 
 	implicit none
 
-	real, parameter :: f = 0.0
-	real :: c
+	real, parameter :: const = 32.0
+	real :: c, f
 
-	c = 5 * (f - 32) / 9
+	print *, "Digite o valor em F°: "
+	read(*,*) f
+
+	c = (f - const) * 5.0 / 9.0
 
 	print *, f, "->", c
 

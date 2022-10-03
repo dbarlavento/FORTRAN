@@ -5,25 +5,19 @@
 ! Algoritmo (descrição ruim!)
 ! Imprima a solicitação para digitação dos cinco inteiros.
 ! Leia os cinco inteiros solicitados.
-! Guarde os inteiro em uma matriz.
+! Guarde os inteiro em uma matriz V.
 ! Verifique se os valores inseridos são números inteiros.
 ! Se não,
 !	Imprima uma mensagem de erro.
 !	Termine o programa.
 ! Se sim, continue ...
-! Selecione o número na primeira posição da matriz, 's' = [1] .
-! Compare o número selecionado com o segundo número da matriz [2].
-! Se 's' < [2], selecione [2], 's' = [2].
-! Se não, não altere 's'.
-! Compare o número selecionado 's' com o terceiro número da matriz [3].
-! Se 's' < [3], selecione [3], 's' = [3].
-! Se não, não altere 's'.
-! Compare o número selecionado 's' com o quarto número da matriz, [4].
-! Se 's' < [4], selecione [4], 's' = [4].
-! Se não, não altere 's'.
-! Compare o número seleconado 's' com o quinto número da matriz, [5].
-! Se 's' < [5], selecione [5], 's' = [5].
-! Se não, não altere 's'.
+! *** Ordenação por seleção ***
+! Para i = 1, a n,
+!  Para j = 1 a n - i,
+!   Se V[j] > V[j+1],
+!	  Troque V[j] por V[j+1].
+! Imprima o menor inteiro: V[1].
+! Imprima o maior inteiro: V[5].
 
 program ex_2_23
 	implicit none
